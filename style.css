@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#carouselExampleAutoplaying{  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    background-color: black;
+}
+
+.altoimagen{
+    height: 500px;
+    width: 100%;
+}
+
+/*NAVIGATION BAR*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap ;
+    background: rgb(156,109,0);
+    background: radial-gradient(circle, rgba(156,109,0,1) 0%, rgba(0,0,0,1) 100%);
+    min-height: 12vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 2rem;
+    height: 3rem;
+    width: 15rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;   
+    background: radial-gradient(circle, rgba(251,236,63,1) 0%, rgba(252,79,70,1) 100%);
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    transition: all .5s;
+    color: black;
+}
+
+nav a:hover{
+    transform: scale(1.5) rotate(15deg) ;
+}
+
+/*POSTERSLERIA*/
+
+main{
+    background-color: black;
+    min-height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+#maincervezas{
+    background-color: white;
+    min-height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main h2{
+    font-size: 3.5rem;
+    text-align: center;
+    color: #C95A09;
+}
+
+.galeria{
+    background: rgb(156,109,0);
+    background: radial-gradient(circle, rgba(156,109,0,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 528px;
+    width: 92vw;
+}
+.galeria img{
+    width: 15%;
+    height: 100%;
+    object-fit:cover;
+    transition: all 1s ease-in-out;
+}
+
+.galeria img:hover{
+    width: 50%;
+    height: 100%;
+}
+
+/*FOOTER*/
+h3{
+    font-size: 2rem;
+    text-align: center;
+    background: rgb(156,109,0);
+    background: radial-gradient(circle, rgba(156,109,0,1) 0%, rgba(0,0,0,1) 100%);
+}

@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Rubik;
+}
+header img{
+    height: 8vw;
+}
+.carousel-inner{
+    height: 1080;
+    width: 720;
+}
+
+.tbcontainer{
+    font-family: Rubik;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.faq{
+    display:flex;
+    font-family: Rubik;
+    padding: 40px;
+    flex-flow: column;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.fcontainer{
+    display:flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.chbox{
+    padding:1px;
+}
+
+form{
+    display:flex;
+    flex-flow:column;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: scale(102%);
+}
+
+.container_info {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    padding: 20px;
+}
+
+input:focus {
+    background-color:lightblue;
+}
+
+.container_info_data {
+    transition: all 0.3s;
+}
+
+.container_info_data:hover{
+    transform: scale(1.2);
+}
